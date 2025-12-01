@@ -1,6 +1,6 @@
 ## =======================================================================
 ##  Selección de especies neotropicales a partir de WCVP
-##  - Filtra especies aceptadas
+##  - Filtra especies aceptadas  ##Ver aceptada o detallar
 ##  - Restringe a distribución neotropical
 ##  - Exporta tabla final en formato delimitado por "|"
 ## =======================================================================
@@ -63,7 +63,7 @@ dist_simpl <- dist_filtrada %>%
 
 lista_neotropico <- names_accepted %>%
   inner_join(dist_simpl, by = "plant_name_id") %>%
-  distinct(plant_name_id, .keep_all = TRUE)
+  distinct(plant_name_id, .keep_all = TRUE) #Se podría dejar toda la información
 
 ## 6. Guardar resultado
 write_delim(
