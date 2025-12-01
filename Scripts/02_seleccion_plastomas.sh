@@ -3,10 +3,9 @@
 # 02_seleccion_plastomas.sh
 #
 # Pipeline para:
-#   1) Filtrar especies neotropicales desde WCVP (preprocesado en R)
-#   2) Generar llaves taxonómicas WCVP ↔ NCBI RefSeq plastid
-#   3) Evaluar cobertura de plastomas por taxón y por familia
-#   4) Seleccionar 30 familias × 5 géneros = 150 plastomas
+#   1) Generar llaves taxonómicas WCVP ↔ NCBI RefSeq plastid
+#   2) Evaluar cobertura de plastomas por taxón y por familia
+#   3) Seleccionar 30 familias × 5 géneros = 150 plastomas #Cambiar a 50 familias x 3 géneros
 #
 # Producto final:
 #   - plastomas_150_neotrop.fna
