@@ -3,9 +3,9 @@
 # 02_seleccion_plastomas.sh
 #
 # Pipeline para:
-#   1) Generar llaves taxonómicas WCVP ↔ NCBI RefSeq plastid
+#   1) Generar llaves taxonómicas WCVP (filtrada) ↔ NCBI RefSeq plastid
 #   2) Evaluar cobertura de plastomas por taxón y por familia
-#   3) Seleccionar 30 familias × 5 géneros = 150 plastomas #Cambiar a 50 familias x 3 géneros
+#   3) Seleccionar 30 familias × 5 géneros = 150 plastomas #Cambiar a 50 familias x 3 géneros 
 #
 # Producto final:
 #   - plastomas_150_neotrop.fna
