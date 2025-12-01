@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # ======================================================================
-# 01_curacion_y_seleccion_plastomas.sh
+# 02_seleccion_plastomas.sh
 #
 # Pipeline para:
 #   1) Filtrar especies neotropicales desde WCVP (preprocesado en R)
